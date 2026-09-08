@@ -22,7 +22,7 @@ export default function VisionSection() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           {/* Photo side */}
           <div className="relative order-1 lg:order-1">
-            <div id="tam-nhin" className="relative mx-auto w-full max-w-[440px] scroll-mt-24">
+            <div id="tam-nhin" className="relative mx-auto w-full max-w-[440px] scroll-mt-24 lg:scroll-mt-0">
               <div
                 className="relative aspect-[4/5] w-full overflow-hidden shadow-lift ring-1 ring-ink-900/10 rotate-[-2deg]"
                 style={{
