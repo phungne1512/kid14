@@ -2,6 +2,7 @@ import { type ReactNode } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import { useScrollToHash } from '@/hooks/useScrollToHash';
+import FloatingContact from '@/components/shared/FloatingContact';
 
 interface LayoutProps {
   children: ReactNode;
@@ -15,6 +16,7 @@ export default function Layout({ children }: LayoutProps) {
       <Header />
       <main className="flex-1">{children}</main>
       <Footer />
+      <FloatingContact />
     </div>
   );
 }
