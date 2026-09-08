@@ -37,10 +37,7 @@ const missionCards: MissionCard[] = [
 
 export default function MissionSection() {
   return (
-    <section
-      id="su-menh"
-      className="relative overflow-hidden bg-blush-200 py-20 lg:py-28"
-    >
+    <section className="relative overflow-hidden bg-blush-200 py-20 lg:py-28">
       {/* Soft decorative blobs */}
       <div
         aria-hidden
@@ -53,7 +50,7 @@ export default function MissionSection() {
 
       <div className="container-page relative">
         {/* Section header */}
-        <div className="mx-auto max-w-2xl text-center">
+        <div id="su-menh" className="mx-auto max-w-2xl scroll-mt-24 text-center">
           <span className="inline-flex items-center gap-2 rounded-full bg-ink-900/10 px-4 py-1.5 font-body text-sm font-semibold text-ink-900">
             <Sparkles className="h-4 w-4" strokeWidth={2.25} />
             SỨ MỆNH

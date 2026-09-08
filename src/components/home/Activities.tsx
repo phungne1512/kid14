@@ -48,7 +48,7 @@ export default function Activities() {
   return (
     <section
       id="hoat-dong"
-      className="relative overflow-hidden bg-cream-100 py-20 lg:py-28"
+      className="relative scroll-mt-24 overflow-hidden bg-cream-100 py-20 lg:py-28"
     >
       {/* Soft decorative blobs */}
       <div

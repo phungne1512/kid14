@@ -179,7 +179,7 @@ export default function Teachers() {
   return (
     <section
       id="doi-ngu"
-      className="relative overflow-hidden bg-blush-300 py-20 lg:py-28"
+      className="relative scroll-mt-24 overflow-hidden bg-blush-300 py-20 lg:py-28"
     >
       {/* Hide native scrollbar cross-browser */}
       <style>{`

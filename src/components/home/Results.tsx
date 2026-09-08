@@ -131,7 +131,7 @@ export default function Results() {
   return (
     <section
       id="ket-qua"
-      className="relative overflow-hidden bg-cream-100 py-20 lg:py-28"
+      className="relative scroll-mt-24 overflow-hidden bg-cream-100 py-20 lg:py-28"
     >
       {/* Editorial background — soft, dimmed with cream/sky overlay */}
       <div aria-hidden className="absolute inset-0">

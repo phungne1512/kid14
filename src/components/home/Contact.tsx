@@ -15,7 +15,7 @@ export default function Contact() {
   return (
     <section
       id="lien-he"
-      className="relative overflow-hidden bg-sky-200 py-20 lg:py-28"
+      className="relative scroll-mt-24 overflow-hidden bg-sky-200 py-20 lg:py-28"
     >
       {/* Soft decorative blobs */}
       <div
