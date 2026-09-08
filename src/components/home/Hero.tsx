@@ -92,7 +92,7 @@ export default function Hero() {
                 <img
                   src={CHILD_MAIN}
                   alt="Đứa trẻ đang học tiếng Anh tại ILE"
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-cover object-top"
                   loading="eager"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-ink-900/15 via-transparent to-transparent" />
