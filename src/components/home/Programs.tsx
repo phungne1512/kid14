@@ -159,11 +159,11 @@ function ProgramPanel({ program, index }: { program: Program; index: number }) {
           style={{ borderRadius: '52% 48% 44% 56% / 45% 54% 46% 55%' }}
         >
           <img
-            src={program.image}
-            alt={`${program.title} tại ILE`}
-            className="h-full w-full object-cover transition-transform duration-700 ease-smooth group-hover:scale-105"
-            loading="lazy"
-          />
+  src={program.image}
+  alt={`${program.title} tại ILE`}
+  className={`h-full w-full object-cover transition-transform duration-700 ease-smooth group-hover:scale-105 ${program.age === '11-15' ? 'object-top' : ''}`}
+  loading="lazy"
+/>
           <div className="absolute inset-0 bg-gradient-to-t from-ink-900/20 via-transparent to-transparent" />
         </div>
 
